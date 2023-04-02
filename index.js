@@ -26,6 +26,6 @@ module.exports = isPalindrome;
 
 
 function isPalindrome(word){
-    let reversedWord =  word.split().reverse().join();
+    let reversedWord =  word.split('').reverse().join('');
     return word === reversedWord;
 }
